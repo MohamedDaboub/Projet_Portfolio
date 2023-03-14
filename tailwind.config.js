@@ -19,7 +19,8 @@ module.exports = {
         "4xl": "5rem"
       },
       "fontFamily": {
-
+        "Iceberg": "Iceberg",
+        "poppins": "Poppins",
       },
       "boxShadow": {
 
