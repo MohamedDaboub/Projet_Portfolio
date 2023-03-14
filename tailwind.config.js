@@ -11,7 +11,12 @@ module.exports = {
         "Default/me/Gris": "#2d2d2d",
       },
       "fontSize": {
-
+        "base": "1rem",
+        "lg": "1.25rem",
+        "xl": "1.5625rem",
+        "2xl": "1.875rem",
+        "3xl": "3.1875rem",
+        "4xl": "5rem"
       },
       "fontFamily": {
 
