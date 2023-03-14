@@ -23,3 +23,15 @@ h5 {
 h6 {
   font-size: 1rem;
 }
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #111821;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 3rem;
+}
