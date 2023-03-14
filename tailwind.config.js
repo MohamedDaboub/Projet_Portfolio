@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       "colors": {
-
+        "Default/me/head": "#111821",
+        "Default/me/back": "#111821",
+        "Default/me/Gris": "#2d2d2d",
       },
       "fontSize": {
 
@@ -18,7 +20,7 @@ module.exports = {
 
       },
       "borderRadius": {
-        
+
       }
     },
   },
