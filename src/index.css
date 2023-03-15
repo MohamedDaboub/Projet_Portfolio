@@ -43,4 +43,5 @@ html::-webkit-scrollbar-thumb {
 }
 html{
   scroll-behavior: smooth;  
+  background-color: #111821;
 }
