@@ -12,7 +12,7 @@
         <div class="w-full lg:w-1/2 flex justify-center my-10">
           <img
             class="w-3/4 shadow-lg border-2 border-white rounded-full"
-            src="../../assets/image 149.webp"
+            src="../../assets/image149.webp"
             alt=""
           />
         </div>
