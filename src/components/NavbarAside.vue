@@ -34,9 +34,14 @@
   
 <script>
 export default {
-components: {},
+  components: {Linkdin,Discord,Github,Mail,User,Instagram},
 }
-
-</script> 
+import Linkdin from "./icons/Linkdin.vue" 
+import Github from "./icons/Github.vue" 
+import Discord from "./icons/Discord.vue" 
+import Mail from "./icons/Mail.vue" 
+import User from "./icons/User.vue" 
+import Instagram from "./icons/Instagram.vue" 
+</script>
 <style>  
 </style>
