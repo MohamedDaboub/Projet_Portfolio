@@ -10,22 +10,22 @@
         <nav >
           <ul>
             <li >
-              <a href=""></a>
+              <a href=""><Linkdin/></a>
             </li>
             <li >
-              <a href="" ></a>
+              <a href="" ><Github/></a>
             </li>
             <li >
-              <a href=""></a>
+              <a href=""><Instagram/></a>
             </li>
             <li >
-              <a href=""></a>
+              <a href=""><Discord/></a>
             </li>
             <li >
-              <a href=""></a>
+              <a href=""><Mail/></a>
             </li>
             <li >
-              <a href="" download="" ></a>
+              <a href="" download="" ><User/></a>
             </li>
           </ul>
         </nav>
