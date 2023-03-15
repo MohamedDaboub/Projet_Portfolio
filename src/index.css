@@ -4,7 +4,9 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Iceberg', sans-serif;
+    color: white;
 }
+
 h1 {
     font-size: 3rem;
 }
@@ -23,6 +25,7 @@ h5 {
 h6 {
   font-size: 1rem;
 }
+
 html::-webkit-scrollbar {
     width: 1rem;
 }
