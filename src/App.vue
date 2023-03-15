@@ -3,18 +3,22 @@ import { RouterLink, RouterView } from 'vue-router'
 
 </script>
 <template>
-
+  <div class=" flex ">
+    <NavbarAside/>
+    <main class="flex-1">
     <RouterView />
-
+    </main>
+  </div>
 </template>
 
 <script>
-import { MenuIcon, } from "@heroicons/vue/solid";
+
+import NavbarAside from "./components/NavbarAside.vue"
 
 
 export default {
   name: "App",
-  components: { MenuIcon,},
+  components: { NavbarAside,},
 };
 
 </script>
