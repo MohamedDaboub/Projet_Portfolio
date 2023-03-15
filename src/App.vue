@@ -6,7 +6,8 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class=" flex ">
     <NavbarAside/>
     <main class="flex-1">
-    <RouterView />
+      <NavbarLink/>
+      <RouterView />
     </main>
   </div>
   <FooterView/>
@@ -15,6 +16,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <script>
 
 import NavbarAside from "./components/NavbarAside.vue"
+import NavbarLink from "./components/NavbarLink.vue"
 import FooterView from "./components/FooterView.vue"
 
 
