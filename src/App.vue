@@ -9,16 +9,18 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterView />
     </main>
   </div>
+  <FooterView/>
 </template>
 
 <script>
 
 import NavbarAside from "./components/NavbarAside.vue"
+import FooterView from "./components/FooterView.vue"
 
 
 export default {
   name: "App",
-  components: { NavbarAside,},
+  components: { NavbarAside,FooterView},
 };
 
 </script>
