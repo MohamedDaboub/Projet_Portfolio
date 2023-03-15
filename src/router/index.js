@@ -7,7 +7,11 @@ const router = createRouter({
     { path: '/', name: 'AccueilView', component: AccueilView },
 
     { path: '/Mentionslegales', name: 'MentionslegalesView', component: MentionslegalesView },
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return savedPosition || { top: 0 }
+  },
 })
 
 export default router
