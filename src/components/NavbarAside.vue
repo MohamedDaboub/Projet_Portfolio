@@ -1,37 +1,36 @@
 <template>
-    <aside >
-        <header >
-          <div >
+    <aside class="bg-Default/me/head border-r-2 border-solid border-white ">
+        <header class="border-b-2 border-solid border-white p-4  sticky top-0 z-10 ">
+          <div class="flex items-center  w-10 md:w-20">
             <RouterLink to="/">
-              <img src=""  alt="">
+              <img src="../../public/icon/Logo_Site.svg" class="md:w-20" alt="Logo du site">
             </RouterLink>
           </div>
         </header>
-        <nav >
+        <nav class="p-2 text-center sticky top-[15%]  z-10 ">
           <ul>
-            <li >
-              <a href="https://www.linkedin.com/in/mohamed-daboub/"><Linkdin/></a>
+            <li class="hover:animate-[spin_1000ms_1] ">
+              <a href="https://www.linkedin.com/in/mohamed-daboub/" class=""><Linkdin class="py-3 w-6 md:w-10 m-auto "/></a>
             </li>
-            <li >
-              <a href="https://github.com/MohamedDaboub" ><Github/></a>
+            <li class="hover:animate-[spin_1000ms_1]">
+              <a href="https://github.com/MohamedDaboub" class=""><Github class="py-3 w-8 md:w-10 m-auto"/></a>
             </li>
-            <li >
-              <a href="https://www.instagram.com/daboub.dev/"><Instagram/></a>
+            <li class="hover:animate-[spin_1000ms_1]">
+              <a href="https://www.instagram.com/daboub.dev/" class=""><Instagram class="py-3 w-8 md:w-10 m-auto"/></a>
             </li>
-            <li >
-              <a href="https://discord.com/channels/Mohamed.D#6373"><Discord/></a>
+            <li class="hover:animate-[spin_1000ms_1]">
+              <a href="https://discord.com/channels/Mohamed.D#6373" class=""><Discord class="py-3 w-8 md:w-10 m-auto"/></a>
             </li>
-            <li >
-              <a href="mailto:mohamed@daboub.fr"><Mail/></a>
+            <li class="hover:animate-[spin_1000ms_1]">
+              <a href="mailto:contact@daboub.fr" class=""><Mail class="py-3 w-8 md:w-10 m-auto"/></a>
             </li>
-            <li >
-              <a href="/CV.pdf" download="" ><User/></a>
+            <li class="hover:animate-[spin_1000ms_1]">
+              <a href="/CV.pdf" download="Mohamed_Daboub_CV" class=""><User class="py-3 w-8 md:w-10 m-auto"/></a>
             </li>
           </ul>
         </nav>
     </aside>
 </template>
-  
 <script>
 export default {
   components: {Linkdin,Discord,Github,Mail,User,Instagram},
@@ -43,5 +42,5 @@ import Mail from "./icons/Mail.vue"
 import User from "./icons/User.vue" 
 import Instagram from "./icons/Instagram.vue" 
 </script>
-<style>  
+<style>
 </style>
