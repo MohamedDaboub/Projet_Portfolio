@@ -1,74 +1,3 @@
-<!-- <template>
-  <div id="portfolio" class="max-w-screen-xl mx-auto py-10 flex flex-col-reverse lg:flex-row justify-center items-center text-white">
-    <div class="w-full max-w-md px-2 py-16 sm:px-0 ">
-      <TabGroup>
-        <TabList class="flex space-x-1 rounded-xl flex-wrap md:flex-nowrap md: text-center md:text-justify  m-auto bg-blue-900/20 p-1">
-          <Tab
-            v-for="category in Object.keys(categories)"
-            as="template"
-            :key="category"
-            v-slot="{ selected }"
-            class=""
-          >
-          <button
-            :class="[
-              'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700',
-              'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
-              selected
-                ? 'bg-white shadow'
-                : 'text-blue-100 hover:bg-white/[0.12] hover:text-white',
-            ]"
-          >
-            {{ category }}
-          </button>
-        </Tab>
-      </TabList>
-      <TabPanels class="mt-2">
-        <TabPanel
-          v-for="(Projets, idx) in Object.values(categories)"
-          :key="idx"
-          :class="[
-            'flex flex-wrap',
-            '',
-          ]" >
-          <ul>
-            <li
-              v-for="Projet in Projets"
-              :key="Projet.id"
-              class="flex flex-col space-y-4"
-            >
-              <div>
-                <div class="flex flex-col space-y-4">
-                  <div class="flex flex-col space-y-4">
-                    <img :src="Projet.src" alt="" />
-                    <div class="flex flex-col space-y-4">
-                      <h6>{{ Projet.title }}</h6>
-                      <p>{{ Projet.description }}</p>
-                    </div>
-                    <div class="flex flex-col space-y-4">
-                      <div class="flex flex-col space-y-4">
-                        <div class="flex flex-col space-y-4">
-                          <span>{{ Projet.Language }}</span>
-                          <span>{{ Projet.anne }}</span>
-                        </div>
-                        <span>{{ Projet.FaceRealisation }}</span>
-                      </div>
-                      <div class="flex flex-col space-y-4">
-                        <a :href="Projet.lien"><img :src="World" alt="" /></a> 
-                      </div>
-                    </div>
-                  </div>
-                </div>  
-                
-              </div>
-            </li>
-            </ul>
-          </TabPanel>
-        </TabPanels>
-      </TabGroup>
-    </div>
-  </div>
-</template> -->
 <template>
   <div id="portfolio" class="max-w-screen-xl mx-auto py-10 flex flex-col-reverse lg:flex-row justify-center items-center text-white">
     <div class="max-w-screen-xl mx-auto py-10 flex flex-col justify-center  text-white">
@@ -152,9 +81,6 @@
 import { ref } from 'vue'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 
-import Projet from './Projet/Projet.vue';
-import Projet2 from './Projet/Projet2.vue';
-import Projet3 from './Projet/Projet3.vue';
 
 const categories = ref({
   Développement: [
