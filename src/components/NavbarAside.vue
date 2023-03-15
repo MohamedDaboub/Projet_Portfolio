@@ -10,22 +10,22 @@
         <nav >
           <ul>
             <li >
-              <a href=""><Linkdin/></a>
+              <a href="https://www.linkedin.com/in/mohamed-daboub/"><Linkdin/></a>
             </li>
             <li >
-              <a href="" ><Github/></a>
+              <a href="https://github.com/MohamedDaboub" ><Github/></a>
             </li>
             <li >
-              <a href=""><Instagram/></a>
+              <a href="https://www.instagram.com/daboub.dev/"><Instagram/></a>
             </li>
             <li >
-              <a href=""><Discord/></a>
+              <a href="https://discord.com/channels/Mohamed.D#6373"><Discord/></a>
             </li>
             <li >
-              <a href=""><Mail/></a>
+              <a href="mailto:mohamed@daboub.fr"><Mail/></a>
             </li>
             <li >
-              <a href="" download="" ><User/></a>
+              <a href="/CV.pdf" download="" ><User/></a>
             </li>
           </ul>
         </nav>
