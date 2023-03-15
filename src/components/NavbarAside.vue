@@ -35,12 +35,12 @@
 export default {
   components: {Linkdin,Discord,Github,Mail,User,Instagram},
 }
-import Linkdin from "./icons/Linkdin.vue" 
-import Github from "./icons/Github.vue" 
-import Discord from "./icons/Discord.vue" 
-import Mail from "./icons/Mail.vue" 
-import User from "./icons/User.vue" 
-import Instagram from "./icons/Instagram.vue" 
+import Linkdin from "./icon/Linkdin.vue" 
+import Github from "./icon/Github.vue" 
+import Discord from "./icon/Discord.vue" 
+import Mail from "./icon/Mail.vue" 
+import User from "./icon/User.vue"  
+import Instagram from "./icon/Instagram.vue" 
 </script>
 <style>
 </style>
