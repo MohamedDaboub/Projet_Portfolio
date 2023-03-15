@@ -1,5 +1,5 @@
 <template>
-    <section class="text-white md:text-lg text-base p-5 xs:p-7 md:p-10 ">
+    <section class=" md:text-lg text-base p-5 xs:p-7 md:p-10 ">
         <div class="my-10">
             <h1 class="text-2xl md:text-5xl text-center">Mentions légales</h1>
         </div>
