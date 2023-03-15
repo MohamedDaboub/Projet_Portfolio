@@ -41,3 +41,6 @@ html::-webkit-scrollbar-thumb {
   background: #fff;
   border-radius: 3rem;
 }
+html{
+  scroll-behavior: smooth;  
+}
