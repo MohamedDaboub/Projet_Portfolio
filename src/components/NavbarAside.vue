@@ -10,7 +10,7 @@
         <nav class="p-2 text-center sticky top-[15%]  z-10 ">
           <ul>
             <li class="hover:animate-[spin_1000ms_1] ">
-              <a href="https://www.linkedin.com/in/mohamed-daboub/" class=""><Linkdin class="py-3 w-6 md:w-10 m-auto "/></a>
+              <a href="https://www.linkedin.com/in/mohamed-daboub/" class=""><Linkdin class="py-3 w-8 md:w-10 m-auto "/></a>
             </li>
             <li class="hover:animate-[spin_1000ms_1]">
               <a href="https://github.com/MohamedDaboub" class=""><Github class="py-3 w-8 md:w-10 m-auto"/></a>
