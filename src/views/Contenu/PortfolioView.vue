@@ -70,7 +70,7 @@ const categories = ref({
       commentCount: 5,
       shareCount: 2,
       ron: 'ron',
-      src: '/src/assets/css.png',
+      src: '/src/assets/css.webp',
       description: 'Lorem ipsum dolor si',
       année: '2021',
       Language: 'React',
