@@ -26,7 +26,13 @@ module.exports = {
 
       },
       "borderRadius": {
-
+        "none": "0",
+        "xs": "0.25rem",
+        "sm": "1.25rem",
+        "default": "1.875rem",
+        "lg": "2rem",
+        "xl": "2.1875rem",
+        "full": "9999px"
       }
     },
   },
