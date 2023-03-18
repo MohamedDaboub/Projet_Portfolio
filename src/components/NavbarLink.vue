@@ -56,8 +56,8 @@ export default {
       menuItems: [
         { id: 'Accueil', title: 'Accueil' },
         { id: 'APropos', title: 'À Propos' },
-        { id: 'Portfolio', title: 'Portfolio' },
-        { id: 'Experience', title: 'Experience' },
+        { id: 'Portfolio', title: 'Projets' },
+        { id: 'Experience', title: 'Compétences' },
         { id: 'Contact', title: 'Contact' },
       ],
     };
