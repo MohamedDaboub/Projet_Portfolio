@@ -23,16 +23,16 @@
   </template>
   
 <script>
-import html from "../../assets/html.png";
-import css from "../../assets/css.png";
-import reactImage from "../../assets/react.png";
-import github from "../../assets/github.png";
+import html from "../../assets/html.webp";
+import css from "../../assets/css.webp";
+import reactImage from "../../assets/react.webp";
+import github from "../../assets/github.webp";
 import FireBase from "../../assets/FirebaseFinale.webp";
-import tailwind from "../../assets/tailwind.png";
-import Vuejs from "../../assets/Vuejs.png";
-import SupaBase from "../../assets/SupaBase.png";
-import openstreetmap from "../../assets/OpenStreetMap.png";
-import Figma from "../../assets/Figma.png";
+import tailwind from "../../assets/tailwind.webp";
+import Vuejs from "../../assets/Vuejs.webp";
+import SupaBase from "../../assets/SupaBase.webp";
+import openstreetmap from "../../assets/OpenStreetMap.webp";
+import Figma from "../../assets/Figma.webp";
 import WordPress from "../../assets/WordPressFinale.webp";
 import Unreal_Engine from "../../assets/UnrealEngineFinale.webp";
 
