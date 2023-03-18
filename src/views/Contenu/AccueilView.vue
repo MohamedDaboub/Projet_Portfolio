@@ -18,7 +18,7 @@
     name: "Accueil",
     mounted() {
       const typed = new Typed('.typing', {
-        strings: ['Webdesigner', 'Développeur front-end', 'Développeur jeux vidéo'],
+        strings: [''],
         typeSpeed: 100,
         backSpeed: 100,
         loop: true
