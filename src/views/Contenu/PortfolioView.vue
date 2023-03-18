@@ -30,22 +30,20 @@
             :class="[
               '','',]">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-black py-6">
-                <div v-for="project in projects" :key="project.id" :to="'/Projet/' + project.id" class="bg-slate-100 p-5 rounded-2xl sm:w-[360px] w-full border-2 border-black" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
-                <img :src="project.src" alt="" class="w-full h-64 object-cover object-center border-2 border-black">
+                <div v-for="project in projects" :key="project.id" :to="'/Projet/' + project.id" class="bg-[#141f36] text-white p-5 rounded-2xl sm:w-[360px] w-full border-2 border-black">
+                <img :src="project.src" alt="" class="w-full h-52 object-cover object-center border-2 border-black">
                 <div class="px-1 py-4">
                   <h2 class="font-bold text-xl mb-2 font-Iceberg ">{{ project.title }}</h2>
-                  <p class="text-gray-700 text-base">{{ project.description }}</p>
+                  <p class=" text-base">{{ project.description }}</p>
                 </div>
                 <div class="px-1 py-4">
                   <div class="flex justify-between">
                     <div class="flex flex-col">
-                      <span class="text-gray-700 font-bold">{{ project.Language }}</span>
-                      <span class="text-gray-700">{{ project.année }}</span>
+                      <span class="">{{ project.année }}</span>
                     </div>
-                    <span class="text-gray-700">{{ project.FaceRealisation }}</span>
                   </div>
-                  <div class="flex justify-end mt-4">
-                    <a :href="project.lien" class="text-white bg-blue-500 hover:bg-blue-700 py-2 px-4 rounded-full">Voir le projet</a>                 
+                  <div class="flex justify-end  items-end mt-4">
+                    <a :href="project.lien" class="text-black hover:text-white bg-white border-2 border-white hover:bg-transparent font-medium py-2 px-4 rounded-[6px] text-lg">Voir le projet</a>                 
                   </div>
                 </div>
               </div>
@@ -65,86 +63,54 @@ const categories = ref({
   Développement: [
     {
       id: 1,
-      title: 'Does drinking coffee make you smarter?',
-      date: '5h ago',
-      commentCount: 5,
-      shareCount: 2,
-      ron: 'ron',
+      title: 'Aide à la réussite',  
       src: '/src/assets/css.webp',
-      description: 'Lorem ipsum dolor si',
-      année: '2021',
-      Language: 'React',
-      FaceRealisation: 'Front-end',
+      description: 'Aide à la réussite consiste à faire réussir les étudiants dans leurs études. Ils pourront avoir et demander des conseils grâce à Aide à la réussite.',
+      année: 'Réalisé en 2023',
       lien: 'Projet'
 
     },
     {
       id: 2,
-      title: "So you've bought coffee... now what?",
-      date: '2h ago',
-      commentCount: 3,
-      shareCount: 2,
-      ron: 'ron',
+      title: "TiK•Tak ",  
       description: 'Lorem ipsum dolor si',
-      année: '2021',
-      Language: 'React',
-      FaceRealisation: 'Front-end',
+      année: 'Réalisé en 2022',
       lien: 'Projet2'
     },
     {
       id: 3,
-      title: "So you've bought coffee... now what?",
-      date: '2h ago',
-      commentCount: 3,
-      shareCount: 2,
-      ron: 'ron',
-      description: 'Lorem ipsum dolor si',
-      année: '2021',
-      Language: 'React',
-      FaceRealisation: 'Front-end',
+      title: "Rap Feast", 
+      src: '/src/assets/portfolio/RapFeast.png',
+      description: "Rap Feast un festival de rap fictif. le projet avait pour but de réaliser un site web pour le festival.",
+      année: 'Réalisé en 2022',
       lien: 'Projet3'
     },
   ],
   Design: [
     {
       id: 1,
-      title: 'Is tech making coffee better or worse?',
-      date: 'Jan 7',
-      commentCount: 29,
-      shareCount: 16,
-      ron: 'ron',
-      description: 'Lorem ipsum dolor si',
-      année: '2021',
-      Language: 'React',
-      FaceRealisation: 'Front-end',
+      title: 'Exposition Universelle 2025',
+      src: '/src/assets/portfolio/Exposition-Universelle-2025-Carte-Postal.webp',
+      description: "Réalisation d'une affiche et d'une carte postale pour l'exposition universelle 2025. Le projet a été réalisé sur le logiciel Figma.",
+      année: 'Réalisé en 2022',
       lien: 'Projet'
     },
     {
       id: 2,
-      title: 'The most innovative things happening in coffee',
-      date: 'Mar 19',
-      commentCount: 24,
-      shareCount: 12,
-      ron: 'ron',
-      description: 'Lorem ipsum dolor si',
-      année: '2021',
-      Language: 'React',
-      FaceRealisation: 'Front-end',
+      title: 'Charte graphique UNSS',
+      src: '/src/assets/portfolio/UNSS-Charte-Graphique.webp',
+      description: "Il s'agit d'un projet fictif qui vise à réaliser la charte graphique de l'UNSS, une fédération sportive française. Le projet a été réalisé sur le logiciel InDesign.",
+      année: 'Réalisé en 2022',
       lien: 'Projet'
     },
   ],
   'Travaux personnels': [
     {
       id: 1,
-      title: 'Ask Me Anything: 10 answers to your questions about coffee',
-      date: '2d ago',
-      commentCount: 9,
-      shareCount: 5,
-      ron: 'ron',
-      description: 'Lorem ipsum dolor si',
-      année: '2021',
-      Language: 'React',
-      FaceRealisation: 'Front-end',
+      title: 'Logo Personnel',
+      src: '/src/assets/portfolio/Logo-Personnel.webp',
+      description: "Lorem ipsum dolor si",
+      année: 'Réalisé en 2023',
       lien: 'Projet'
     },
   ],

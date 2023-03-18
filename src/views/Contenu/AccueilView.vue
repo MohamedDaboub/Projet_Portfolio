@@ -1,14 +1,14 @@
 <template>
-  <section class="h-screen flex flex-wrap justify-center m-auto py-8">
-    <section id="Accueil" class="flex justify-center m-auto items-center flex-wrap">
-      <div class="text-white w-full lg:w-1/2 pr-10">
-        <h1 class="md:text-4xl text-2xl font-Iceberg mb-4">Mohamed Daboub</h1>
-        <h4 class="text-2xl font-poppins mb-6"><span class="typing text-red-500"></span></h4>
+  <section class="h-screen    py-8">
+    <div id="Accueil" class=" m-auto  ">
+      <div class="text-white w-full  pr-10">
+        <h1 class="md:text-4xl text-2xl font-Iceberg mb-4">Mohamed <span>Daboub</span></h1>
+        <div class="m-auto flex  justify-center ">
+          <p>est un étudiant passionné par la création de sites Web et les technologies de développement. Actuellement en deuxième année de MMI (Métiers du Multimédia et de l'Internet), il se spécialise en développement</p>
+          <h4 class="text-2xl font-poppins mb-6"><span class="typing  "></span></h4>
+        </div>
       </div>
-      <div class="w-full lg:w-1/2 flex justify-center">
-        <img class="w-3/4 shadow-lg" src="../../assets/image149.webp" alt="">
-      </div>
-    </section>
+    </div>
   </section>
 </template>
   
