@@ -57,8 +57,6 @@
 <script setup>
 import { ref } from 'vue'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
-
-
 const categories = ref({
   Développement: [
     {
@@ -68,7 +66,6 @@ const categories = ref({
       description: 'Aide à la réussite consiste à faire réussir les étudiants dans leurs études. Ils pourront avoir et demander des conseils grâce à Aide à la réussite.',
       année: 'Réalisé en 2023',
       lien: 'Projet'
-
     },
     {
       id: 2,
@@ -90,7 +87,7 @@ const categories = ref({
     {
       id: 1,
       title: 'Exposition Universelle 2025',
-      src: './src/assets/portfolio/Exposition-Universelle-2025-Carte-Postal.webp',
+      src: '/img/Exposition-Universelle-2025-Carte-Postal.webp',
       description: "Réalisation d'une affiche et d'une carte postale pour l'exposition universelle 2025. Le projet a été réalisé sur le logiciel Figma.",
       année: 'Réalisé en 2022',
       lien: 'Projet'
@@ -98,7 +95,7 @@ const categories = ref({
     {
       id: 2,
       title: 'Charte graphique UNSS',
-      src: '/src/assets/portfolio/UNSS-Charte-Graphique.webp',
+      src: '/img/UNSS-Charte-Graphique.webp',
       description: "Il s'agit d'un projet fictif qui vise à réaliser la charte graphique de l'UNSS, une fédération sportive française. Le projet a été réalisé sur le logiciel InDesign.",
       année: 'Réalisé en 2022',
       lien: 'Projet'
@@ -116,4 +113,3 @@ const categories = ref({
   ],
 })
 </script>
-        
