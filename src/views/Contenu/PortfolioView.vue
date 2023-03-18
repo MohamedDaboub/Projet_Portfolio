@@ -90,7 +90,7 @@ const categories = ref({
     {
       id: 1,
       title: 'Exposition Universelle 2025',
-      src: '/src/assets/portfolio/Exposition-Universelle-2025-Carte-Postal.webp',
+      src: './src/assets/portfolio/Exposition-Universelle-2025-Carte-Postal.webp',
       description: "Réalisation d'une affiche et d'une carte postale pour l'exposition universelle 2025. Le projet a été réalisé sur le logiciel Figma.",
       année: 'Réalisé en 2022',
       lien: 'Projet'
