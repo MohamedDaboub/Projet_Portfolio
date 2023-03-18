@@ -1,13 +1,13 @@
 <template>
-  <section class="flex flex-wrap justify-center m-auto py-8  ">
+  <section class="flex flex-wrap justify-center m-auto py-1   ">
     <section class="relative my-5 hidden lg:block ">
       <img class="w-full rounded-sm" src="../../assets/Group1.svg" alt="">
-      <div class=" absolute left-0 top-0 text-white p-2">
+      <div class=" absolute left-0 top-0 text-white p-2 rounded-xl">
         <div className="pb-1">
           <h2 className="p-6 xl:pt-10   pt-8 xl:pb-10 pb-4 text-6xl  font-bold font-Iceberg ">Contact</h2>
           <p className="px-6 w-6/12 xl:text-lg :text-base font-poppins">J’espère que mon portfolio vous auras plu. Si vous avez des questions ou vous souhaitez tous simplement discuter, n’hésitez pas je me ferais un plaisir de vous répondre !</p>
         </div>   
-        <div class="ml-6 text-center "> 
+        <div class="ml-6 text-center rounded-xl"> 
           <img class="w-2/6 " src="../../assets/Contactus.png" alt="">
         </div>
       </div>

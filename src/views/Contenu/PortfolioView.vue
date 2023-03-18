@@ -12,7 +12,7 @@
           >
             <button
               :class="[
-                'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700 px-4',
+                'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-black px-4',
                 'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
                 selected
                   ? 'bg-white shadow'
@@ -53,27 +53,6 @@
           </TabPanel>
         </TabPanels>
       </TabGroup>
-    </div>
-  </div>
-  <div class="">
-    <div class="bg- p-5 rounded-2xl sm:w-[360px] w-full border-2 border-black" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
-      <div class="relative w-full h-[230px]">
-        <!-- <img src="/src/assets/carrent.png" alt="project_image" class="w-full h-full object-cover rounded-2xl"> -->
-        <div class="absolute inset-0 flex justify-end m-3 card-img_hover">
-          <div class="bg-black  w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-            <!-- <img src="/src/assets/github.png" alt="source code" class="w-1/2 h-1/2 object-contain"> -->
-          </div>
-        </div>
-      </div>
-      <div class="mt-5">
-        <h3 class="text-white font-bold text-[24px]">Car Rent</h3>
-        <p class="mt-2 text-secondary text-[14px] text-white">Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.</p>
-      </div>
-      <div class="mt-4 flex flex-wrap gap-2">
-        <p class="text-[14px] blue-text-gradient">#react</p>
-        <p class="text-[14px] green-text-gradient">#mongodb</p>
-        <p class="text-[14px] pink-text-gradient">#tailwind</p>
-      </div>
     </div>
   </div>
 </template>       
