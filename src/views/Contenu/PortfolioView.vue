@@ -42,7 +42,7 @@
                       <span class="">{{ project.année }}</span>
                     </div>
                   </div>
-                  <div class="flex justify-end  items-end mt-4">
+                  <div class="flex justify-end  items-end mt-6">
                     <a :href="project.lien" class="text-black hover:text-white bg-white border-2 border-white hover:bg-transparent font-medium py-2 px-4 rounded-[6px] text-lg">Voir le projet</a>                 
                   </div>
                 </div>
@@ -62,7 +62,7 @@ const categories = ref({
     {
       id: 1,
       title: 'Aide à la réussite',  
-      src: '/src/assets/css.webp',
+      src: '/img/Aide-a-la-reussite.webp',
       description: 'Aide à la réussite consiste à faire réussir les étudiants dans leurs études. Ils pourront avoir et demander des conseils grâce à Aide à la réussite.',
       année: 'Réalisé en 2023',
       lien: 'Projet'
@@ -70,6 +70,7 @@ const categories = ref({
     {
       id: 2,
       title: "TiK•Tak ",  
+      src: '/img/Tik-Tak.webp',
       description: 'Lorem ipsum dolor si',
       année: 'Réalisé en 2022',
       lien: 'Projet2'
@@ -105,8 +106,8 @@ const categories = ref({
     {
       id: 1,
       title: 'Logo Personnel',
-      src: '/src/assets/portfolio/Logo-Personnel.webp',
-      description: "Lorem ipsum dolor si",
+      src: '/img/Logo_Site.svg',
+      description: "C'est un logo personnel qui représente mes passions et mes aspirations. J'ai choisi de travailler avec Illustrator pour créer un logo qui associe les lettres M et D.",
       année: 'Réalisé en 2023',
       lien: 'Projet'
     },
