@@ -78,7 +78,7 @@ const categories = ref({
     {
       id: 3,
       title: "Rap Feast", 
-      src: '/src/assets/portfolio/RapFeast.png',
+      src: '/img/RapFeast.png',
       description: "Rap Feast un festival de rap fictif. le projet avait pour but de réaliser un site web pour le festival.",
       année: 'Réalisé en 2022',
       lien: 'Projet3'
