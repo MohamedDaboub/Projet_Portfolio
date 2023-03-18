@@ -16,42 +16,42 @@
           <div class="xl:flex hidden  gap-10 mt-8">
             <div>
               <label for="Prenom" class="py-2">Prénom</label>
-              <input type="text" name="firstname" placeholder="Entrez votre Prénom" className="p-2 bg-transparent border-2 rounded-md text-black   focus:outline-none"/>
+              <input type="text" name="firstname" required placeholder="Entrez votre Prénom" className="p-2 bg-transparent border-2 rounded-md text-black   focus:outline-none"/>
             </div>
             <div>
               <label for="nom" class="py-2">Nom</label>
-              <input type="text" name="Lastname" placeholder="Entrez votre nom" className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"/>
+              <input type="text" name="Lastname" required placeholder="Entrez votre nom" className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"/>
             </div>
           </div>
           <div class="xl:hidden  flex py-2  gap-10 mt-8">
             <div>
               <label for="Prenom" class="py-2">Prénom</label>
-              <input type="text" name="firstname" placeholder="Entrez votre Prénom" className="p-2 bg-transparent border-2 rounded-md text-black   focus:outline-none w-[160px]"/>
+              <input type="text" name="firstname" required placeholder="Entrez votre Prénom" className="p-2 bg-transparent border-2 rounded-md text-black   focus:outline-none w-[160px]"/>
             </div>
             <div>
               <label for="nom" class="py-2">Nom</label>
-              <input type="text" name="Lastname" placeholder="Entrez votre nom" className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none w-[160px]"/>
+              <input type="text" name="Lastname" required placeholder="Entrez votre nom" className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none w-[160px]"/>
             </div>
           </div>
           <div class="xl:hidden  flex py-2  gap-10 mt-8">
             <div>
               <label for="email" class="pt-6">Email</label>
-            <input type="text" name="email" placeholder="Entrez votre email" className="my-4 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none xl:w-[485px] w-[160px]"/>
+            <input type="text" name="email" required placeholder="Entrez votre email" className="my-4 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none xl:w-[485px] w-[160px]"/>
             </div>
             <div>
               <label for="subject" class="pt-6">Sujet</label>
-            <input type="text" name="subject" placeholder="Entrez votre Sujet" className="my-4 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none xl:w-[485px]  w-[160px]"/>
+            <input type="text" name="subject" required placeholder="Entrez votre Sujet" className="my-4 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none xl:w-[485px]  w-[160px]"/>
             </div>
           </div>
           <div class="hidden xl:block">
             <label for="email" class="pt-6">Email</label>
-            <input type="text" name="email" placeholder="Entrez votre email" className="my-4 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none xl:w-[485px] w-[360px]"/>
+            <input type="text" name="email" required placeholder="Entrez votre email" className="my-4 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none xl:w-[485px] w-[360px]"/>
 
             <label for="subject" class="pt-6">Sujet</label>
-            <input type="text" name="subject" placeholder="Entrez votre Sujet" className="my-4 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none xl:w-[485px]  w-[360px]"/>
+            <input type="text" name="subject" required placeholder="Entrez votre Sujet" className="my-4 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none xl:w-[485px]  w-[360px]"/>
           </div>
             <label for="message" class="py-2">Message</label>
-            <textarea name="message" placeholder="Entrez votre message" rows="3"
+            <textarea name="message" required placeholder="Entrez votre message" rows="3"
             className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none xl:w-[485px] w-[360px] "></textarea>   
             <div class="mx-auto mt-10">         
                 <button type="submit">
@@ -85,19 +85,19 @@
       <div class="bg-white absolute left-0 top-[44%] w-full py-2 rounded-b-sm px-6 font-poppins flex justify-center ">
         <form action="https://getform.io/f/2d44917b-20af-48e2-a0ea-6362b05169e4" method="POST" className=" flex flex-col w-full md:w-1/2">
             <label for="Prenom" class="">Prénom</label>
-            <input type="text" name="firstname" placeholder="Entrez votre Prénom" className="p-2 bg-transparent border-2 rounded-md text-black   focus:outline-none"/>
+            <input type="text" required name="firstname" placeholder="Entrez votre Prénom" className="p-2 bg-transparent border-2 rounded-md text-black   focus:outline-none"/>
 
             <label for="nom" class="">Nom</label>
-            <input type="text" name="Lastname" placeholder="Entrez votre nom" className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"/>
+            <input type="text" required name="Lastname" placeholder="Entrez votre nom" className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"/>
 
             <label for="email" class="">Email</label>
-            <input type="text" name="email" placeholder="Entrez votre email" className="my-1 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none"/>
+            <input type="text" required name="email" placeholder="Entrez votre email" className="my-1 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none"/>
 
             <label for="subject" class="">Sujet</label>
-            <input type="text" name="subject" placeholder="Entrez votre Sujet" className="my-1 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none "/>
+            <input type="text" required name="subject" placeholder="Entrez votre Sujet" className="my-1 p-2 bg-transparent border-2  rounded-md text-black focus:outline-none "/>
 
             <label for="message" class="py-1">Message</label>
-            <textarea name="message" placeholder="Entrez votre message" rows="3"
+            <textarea name="message" required placeholder="Entrez votre message" rows="3"
             className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none "></textarea>   
             <div class="mx-auto mt-4">         
                 <button type="submit">
