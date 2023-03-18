@@ -8,7 +8,7 @@
           <p className="px-6 w-6/12 xl:text-lg :text-base font-poppins">J’espère que mon portfolio vous auras plu. Si vous avez des questions ou vous souhaitez tous simplement discuter, n’hésitez pas je me ferais un plaisir de vous répondre !</p>
         </div>   
         <div class="ml-6 text-center rounded-xl"> 
-          <img class="w-2/6 " src="../../assets/Contactus.png" alt="">
+          <img class="w-2/6 " src="../../assets/Contactus.webp" alt="">
         </div>
       </div>
       <div class="bg-white absolute left-[50%] top-0 w-1/2 h-full pb-20 rounded-r-sm px-6 font-poppins ">
@@ -72,14 +72,14 @@
   </section>  
   <div class="flex flex-wrap justify-center m-auto py-4  mx-2">
     <section class="relative my-5 block lg:hidden ">
-      <img class="  rounded-sm h-[890px]" src="../../assets/Group.jpg" alt="">
+      <img class="  rounded-sm h-[890px]" src="../../assets/Group.webp" alt="">
       <div class=" absolute left-0 top-0 text-white p-2">
         <div className="">
           <h2 className="p-4 xl:pt-10   pt-4 xl:pb-10 pb-4  text-2xl font-bold font-Iceberg ">Contact</h2>
           <p className="px-4 w-full xl:text-xs :text-base font-poppins">J’espère que mon portfolio vous auras plu. Si vous avez des questions ou vous souhaitez tous simplement discuter, n’hésitez pas je me ferais un plaisir de vous répondre !</p>
         </div>
         <div class="ml-6 text-center flex justify-center "> 
-          <img class=" w-3/6 xs:w-1/6 md:w-2/6 pt-4 text-center " src="../../assets/Contactus.png" alt="">
+          <img class=" w-3/6 xs:w-1/6 md:w-2/6 pt-4 text-center " src="../../assets/Contactus.webp" alt="">
         </div>
       </div>
       <div class="bg-white absolute left-0 top-[44%] w-full py-2 rounded-b-sm px-6 font-poppins flex justify-center ">
