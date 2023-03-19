@@ -36,6 +36,7 @@ import Figma from "../../assets/Figma.webp";
 import Illustrator from "../../assets/illustrator.webp";
 import WordPress from "../../assets/WordPressFinale.webp";
 import Unreal_Engine from "../../assets/UnrealEngineFinale.webp";
+import indesign from "../../assets/indesign.webp";
 
 export default {
   name: "Experience",
@@ -128,6 +129,13 @@ export default {
         },
         {
           id: 13,
+          src: indesign,
+          title: "InDesign",
+          style: "shadow-red-400",
+          style1: "w-20 h-20 mb-10",
+        },
+        {
+          id: 14,
           src: Unreal_Engine,
           title: "Unreal Engine",
           style: "shadow-white",
