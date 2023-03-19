@@ -13,23 +13,15 @@
         </div>
         <div class="py-10">
             <h2 class="text-xl md:text-[36px] py-4">Description</h2>
-            <p class="text-lg py-4 ">Aide à la réussite nous a été proposé en tant que projet collectif de troisième semestre dans le cadre du BUT.
-                Pour la première fois, nous avions un commanditaire réel et le site a été notre premier projet en ligne : ce fut donc mon premier projet professionel.
-                De plus, nous avons dû nous attribuer des rôles bien spécifiques au sein de notre groupe.
-                J’ai donc assumé les rôles de développeur avec Ludovic Faye tandis que Maxime Mercier était communiquant et Florentin Demortiere et Fabio Gafforelli sont les designer du projet.
-                Nous avons donc travaillé en équipe pour réaliser ce projet.
-            </p>
             <p class="text-lg py-4 ">
-                Nous devions réaliser une plateforme d'aide à la réussite pour les élèves.
-                Nous avions également comme contraintes de développer le site sous le CMS Wordpress afin que notre commanditaire puisse assurer la maintenance après livraison.
-                Nous nous sommes appuyés d'un thème Astra.
-                Nous avons également dû réaliser un logo et une charte graphique pour le site.
+                TiK•Tak est un site web dédié à la création de montres personnalisées pour ceux qui cherchent à ajouter une touche unique à leur style.
+                 Tout comme le Rap Feast, TiK•Tak est un projet ambitieux réalisé dans le cadre d'une Situation d'Apprentissage et d'Évaluation (SAÉ) du programme MMI.
+                  Le site offre un outil de personnalisation facile à utiliser qui vous permet de choisir parmi une variété de cadrans, de bracelets, de couleurs
+                   et de designs pour créer la montre de vos rêves. Tout comme le site web du festival, le site TiK•Tak est conçu de A à Z en utilisant 
+                   les dernières technologies en matière de conception web pour offrir une expérience utilisateur fluide et esthétiquement agréable. Si vous 
+                   cherchez une montre qui reflète votre style personnel, ne cherchez plus que TiK•Tak!
             </p>
-            <p class="text-lg py-4 ">
-                Le projet s'est achevé le vendredi 13 Janvier lors de notre soutenance finale qui s'est bien déroulée et qui a validée 3 mois de travail. À ce jour,
-                ce site reste une grande fierté pour moi, de part le fait que nous avons réussi à 
-                développer entièrement le site dans les délais et d'autre part car notre commanditaire en a été très satisfait.
-            </p>
+            
         </div>
         <div class="py-10">
             <h2 class="text-xl md:text-[36px] py-4">Technologies utilisées</h2>

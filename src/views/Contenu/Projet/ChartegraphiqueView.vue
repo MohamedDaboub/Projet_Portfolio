@@ -13,23 +13,15 @@
         </div>
         <div class="py-10">
             <h2 class="text-xl md:text-[36px] py-4">Description</h2>
-            <p class="text-lg py-4 ">Aide à la réussite nous a été proposé en tant que projet collectif de troisième semestre dans le cadre du BUT.
-                Pour la première fois, nous avions un commanditaire réel et le site a été notre premier projet en ligne : ce fut donc mon premier projet professionel.
-                De plus, nous avons dû nous attribuer des rôles bien spécifiques au sein de notre groupe.
-                J’ai donc assumé les rôles de développeur avec Ludovic Faye tandis que Maxime Mercier était communiquant et Florentin Demortiere et Fabio Gafforelli sont les designer du projet.
-                Nous avons donc travaillé en équipe pour réaliser ce projet.
-            </p>
             <p class="text-lg py-4 ">
-                Nous devions réaliser une plateforme d'aide à la réussite pour les élèves.
-                Nous avions également comme contraintes de développer le site sous le CMS Wordpress afin que notre commanditaire puisse assurer la maintenance après livraison.
-                Nous nous sommes appuyés d'un thème Astra.
-                Nous avons également dû réaliser un logo et une charte graphique pour le site.
+                Il s'agit d'un projet fictif qui vise à réaliser la charte graphique de l'UNSS,
+                une fédération sportive française. Le projet a été réalisé sur le logiciel InDesign, le Logo à été réalisé sur Illustrator.
+                Cette version a été développée autour d’un logo dont l’esprit collectif est celui de tous les sports. 
+                le graphisme représente 4 personnes autour de l’association UNSS.
+                Pour créer ce logo je me suis basés sur le U de UNSS qui signifie union,union de plusieurs personnes donc 
+                nous avons pensé à représenter les personnes autour de cette association.
             </p>
-            <p class="text-lg py-4 ">
-                Le projet s'est achevé le vendredi 13 Janvier lors de notre soutenance finale qui s'est bien déroulée et qui a validée 3 mois de travail. À ce jour,
-                ce site reste une grande fierté pour moi, de part le fait que nous avons réussi à 
-                développer entièrement le site dans les délais et d'autre part car notre commanditaire en a été très satisfait.
-            </p>
+
         </div>
         <div class="py-10">
             <h2 class="text-xl md:text-[36px] py-4">Technologies utilisées</h2>
@@ -60,6 +52,7 @@ import World from '@/components/icon/World.vue';
 
 import Illustrator from "@/assets/illustrator.webp";
 import indesign from "@/assets/indesign.webp";
+import Figma from "@/assets/Figma.webp";
 
 
 export default {
@@ -80,6 +73,13 @@ export default {
           style: "shadow-red-400",
           style1: "w-20 h-20 mb-10",
         },
+        {
+          id: 3,
+          src: Figma,
+          title: "Figma",
+          style: "shadow-red-400",
+          
+      },
     ];
     return { techs };
   },
