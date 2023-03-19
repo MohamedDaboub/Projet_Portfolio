@@ -57,6 +57,8 @@
 <script setup>
 import { ref } from 'vue'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
+
+
 const categories = ref({
   Développement: [
     {
@@ -65,23 +67,23 @@ const categories = ref({
       src: '/img/Aide-a-la-reussite.webp',
       description: 'Aide à la réussite consiste à faire réussir les étudiants dans leurs études. Ils pourront avoir et demander des conseils grâce à Aide à la réussite.',
       année: 'Réalisé en 2023',
-      lien: 'Projet'
+      lien: 'Aidealareussite'
     },
     {
       id: 2,
-      title: "TiK•Tak ",  
+      title: "TiK•Tak",  
       src: '/img/Tik-Tak.webp',
-      description: 'Lorem ipsum dolor si',
+      description: 'TiK•Tak est une plateforme en ligne fictive qui offre une expérience de personnalisation unique pour la création de montres de main personnalisées.',
       année: 'Réalisé en 2022',
-      lien: 'Projet2'
+      lien: 'TiKTak'
     },
     {
       id: 3,
       title: "Rap Feast", 
       src: '/img/RapFeast.png',
-      description: "Rap Feast un festival de rap fictif. le projet avait pour but de réaliser un site web pour le festival.",
+      description: "Rap Feast est un festival de rap fictif pour lequel un site web a été créé dans le cadre d'un projet. Le projet a été réalisé sur le Framework Vuejs.",
       année: 'Réalisé en 2022',
-      lien: 'Projet3'
+      lien: 'RapFeast'
     },
   ],
   Design: [
@@ -91,7 +93,7 @@ const categories = ref({
       src: '/img/Exposition-Universelle-2025-Carte-Postal.webp',
       description: "Réalisation d'une affiche et d'une carte postale pour l'exposition universelle 2025. Le projet a été réalisé sur le logiciel Figma.",
       année: 'Réalisé en 2022',
-      lien: 'Projet'
+      lien: 'ExpositionUniverselle'
     },
     {
       id: 2,
@@ -99,7 +101,7 @@ const categories = ref({
       src: '/img/UNSS-Charte-Graphique.webp',
       description: "Il s'agit d'un projet fictif qui vise à réaliser la charte graphique de l'UNSS, une fédération sportive française. Le projet a été réalisé sur le logiciel InDesign.",
       année: 'Réalisé en 2022',
-      lien: 'Projet'
+      lien: 'Chartegraphique'
     },
   ],
   'Travaux personnels': [
@@ -109,7 +111,7 @@ const categories = ref({
       src: '/img/Logo_Site.svg',
       description: "C'est un logo personnel qui représente mes passions et mes aspirations. J'ai choisi de travailler avec Illustrator pour créer un logo qui associe les lettres M et D.",
       année: 'Réalisé en 2023',
-      lien: 'Projet'
+      lien: 'LogoPersonnel'
     },
   ],
 })
