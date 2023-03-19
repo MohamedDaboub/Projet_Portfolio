@@ -31,7 +31,7 @@
               '','',]">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-black py-6">
                 <div v-for="project in projects" :key="project.id" :to="'/Projet/' + project.id" class="bg-[#141f36] text-white p-5 rounded-2xl sm:w-[360px] w-full border-2 border-black">
-                <img :src="project.src" alt="" class="w-full h-52 object-cover object-center border-2 border-black">
+                <img :src="project.src" alt="" class="w-full md:h-52 h-36  object-cover object-center border-2 border-black">
                 <div class="px-1 py-4">
                   <h2 class="font-bold text-xl mb-2 font-Iceberg ">{{ project.title }}</h2>
                   <p class=" text-base">{{ project.description }}</p>
