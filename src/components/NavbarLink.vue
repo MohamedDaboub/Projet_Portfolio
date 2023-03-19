@@ -19,15 +19,12 @@
           >
           <ul  id="menu" v-if="menuOuvert" class="lg:hidden text-xl  mx-6  text-center text-white font-Iceberg" >
             <li v-for="item in menuItems" :key="item.id">
-              <!-- <RouterLink :to="'#' + item.id">{{ item.title }}</RouterLink> -->
               <a @click="scroll(item.id)">{{ item.title }}</a>
             </li>        
           </ul>  
         </transition>
           <ul class="lg:flex  gap-6 lg:items-center text-xl text-white mx-6 py-[1.4px] hidden cursor-pointer font-Iceberg" >
             <li v-for="item in menuItems" :key="item.id">
-              <!-- <RouterLink :to="'/#' + item.id">{{ item.title }}</RouterLink> -->
-                <!-- <a :href="'#' + item.id">{{ item.title }}</a> -->
                 <a @click="scroll(item.id)">{{ item.title }}</a>
             </li>        
           </ul>  
