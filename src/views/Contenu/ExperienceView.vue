@@ -33,7 +33,7 @@ import Vuejs from "../../assets/Vuejs.webp";
 import SupaBase from "../../assets/SupaBase.webp";
 import openstreetmap from "../../assets/OpenStreetMap.webp";
 import Figma from "../../assets/Figma.webp";
-import Illustrator from "../../assets/Illustrator.webp";
+import Illustrator from "../../assets/illustrator.webp";
 import WordPress from "../../assets/WordPressFinale.webp";
 import Unreal_Engine from "../../assets/UnrealEngineFinale.webp";
 
