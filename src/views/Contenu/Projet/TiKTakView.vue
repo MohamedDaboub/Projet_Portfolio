@@ -59,6 +59,7 @@ import World from '@/components/icon/World.vue';
 import Figma from "@/assets/Figma.webp";
 import Illustrator from "@/assets/Illustrator.webp";
 import Vuejs from "@/assets/Vuejs.webp";
+import SupaBase from "@/assets/SupaBase.webp";
 
 export default {
   components: {World},
@@ -84,7 +85,14 @@ export default {
           title: "VueJs",
           style: "shadow-green-400",
           style1: "mb-12",
-        },
+    },
+    {
+          id: 4,
+          src: SupaBase,
+          title: "SupaBase",
+          style: "shadow-green-400",
+          style1: "mb-10",
+    },
     ];
     return { techs };
   },
