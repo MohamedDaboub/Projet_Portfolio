@@ -24,20 +24,20 @@
   </template>
   
 <script>
+import Figma from "../../assets/Figma.webp";
 import html from "../../assets/html.webp";
 import css from "../../assets/css.webp";
-import reactImage from "../../assets/react.webp";
 import github from "../../assets/github.webp";
-import FireBase from "../../assets/FirebaseFinale.webp";
-import tailwind from "../../assets/tailwind.webp";
+import WordPress from "../../assets/WordPressFinale.webp";
+import Illustrator from "../../assets/illustrator.webp";
 import Vuejs from "../../assets/Vuejs.webp";
+import tailwind from "../../assets/tailwind.webp";
+import FireBase from "../../assets/FirebaseFinale.webp";
+import reactImage from "../../assets/react.webp";
 import SupaBase from "../../assets/SupaBase.webp";
 import openstreetmap from "../../assets/OpenStreetMap.webp";
-import Figma from "../../assets/Figma.webp";
-import Illustrator from "../../assets/illustrator.webp";
-import WordPress from "../../assets/WordPressFinale.webp";
-import Unreal_Engine from "../../assets/UnrealEngineFinale.webp";
 import indesign from "../../assets/indesign.webp";
+import Unreal_Engine from "../../assets/UnrealEngineFinale.webp";
 
 export default {
   name: "Experience",
