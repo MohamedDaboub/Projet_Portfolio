@@ -6,7 +6,9 @@
             </div>
             <div class="flex items-center gap-4">
                 <p>Site en Ligne </p>
-                <World class="hover:rotate-180 duration-1000 border-2 p-2 rounded-full"/>
+                <a href="https://aidealareussite.fr/">
+                    <World class="hover:rotate-180 duration-1000 border-2 p-2 rounded-full"/>
+                </a>
             </div>
         </div>
         <div class="py-10">
