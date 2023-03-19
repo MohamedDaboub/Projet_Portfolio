@@ -57,7 +57,7 @@
 <script>
 import World from '@/components/icon/World.vue';
 import Figma from "@/assets/Figma.webp";
-import Illustrator from "@/assets/Illustrator.webp";
+import Illustrator from "@/assets/illustrator.webp";
 import Vuejs from "@/assets/Vuejs.webp";
 import FireBase from "@/assets/FirebaseFinale.webp";
 

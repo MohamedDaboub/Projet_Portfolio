@@ -60,7 +60,7 @@
 import World from '@/components/icon/World.vue'
 import WordPress from "@/assets/WordPressFinale.webp";
 import Figma from "@/assets/Figma.webp";
-import Illustrator from "@/assets/Illustrator.webp";
+import Illustrator from "@/assets/illustrator.webp";
 export default {
   components: {World},
   setup() {
