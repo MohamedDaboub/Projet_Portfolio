@@ -49,7 +49,7 @@
             <div class="w-full grid grid-cols-1 sm:grid-cols-3 gap-8 text-center py-8 px-6 sm:px-0 items-center">
                 <img class="w-full it" src="@/assets/AideReussite/LogoRealisation.webp" alt="">
                 <img class="w-full it" src="@/assets/AideReussite/LogoFinale.webp" alt="">
-                <img class="w-full it" src="@/assets/AideReussite/PageAC.webp" alt="">
+                <img class="w-full it" src="@/assets/AideReussite/PageAc.webp" alt="">
                 <img class="w-full it" src="@/assets/AideReussite/Affiche.webp" alt="">
             </div>
         </div>
