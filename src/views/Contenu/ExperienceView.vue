@@ -33,6 +33,7 @@ import Vuejs from "../../assets/Vuejs.webp";
 import SupaBase from "../../assets/SupaBase.webp";
 import openstreetmap from "../../assets/OpenStreetMap.webp";
 import Figma from "../../assets/Figma.webp";
+import Illustrator from "../../assets/Illustrator.webp";
 import WordPress from "../../assets/WordPressFinale.webp";
 import Unreal_Engine from "../../assets/UnrealEngineFinale.webp";
 
@@ -52,7 +53,7 @@ export default {
           id: 2,
           src: html,
           title: "HTML",
-          style: "shadow-orange-500",
+          style: "shadow-orange-800",
           style1: "w-20 h-20 mb-10",
         },
         {
@@ -78,48 +79,55 @@ export default {
         },
         {
           id: 6,
+          src: Illustrator,
+          title: "Illustrator",
+          style: "shadow-orange-400",
+          style1: "w-20 h-20 mb-10",
+        },
+        {
+          id: 7,
           src: Vuejs,
           title: "VueJs",
           style: "shadow-green-400",
           style1: "mb-12",
         },
         {
-          id: 7,
+          id: 8,
           src: tailwind,
           title: "Tailwind",
           style: "shadow-sky-400",
           style1: "w-20 h-20 mb-10",
         },
         {
-          id: 8,
+          id: 9,
           src: FireBase,
           title: "FireBase",
           style: "shadow-orange-400",
           style1: "mb-4",
         },
         {
-          id: 9,
+          id: 10,
           src: reactImage,
           title: "React",
           style: "shadow-blue-600",
           style1: "w-20 h-20 mb-10",
         },
         {
-          id: 10,
+          id: 11,
           src: SupaBase,
           title: "SupaBase",
           style: "shadow-green-400",
           style1: "mb-10",
         },
         {
-          id: 11,
+          id: 12,
           src: openstreetmap,
           title: "Open Street Map",
           style: "shadow-green-400",
           style1: "mb-10",
         },
         {
-          id: 12,
+          id: 13,
           src: Unreal_Engine,
           title: "Unreal Engine",
           style: "shadow-white",
