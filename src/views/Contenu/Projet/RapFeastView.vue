@@ -47,8 +47,8 @@
         <div class="py-10">
             <h2 class="text-xl md:text-[36px] py-4">Galerie d'images</h2>
             <div class="w-full grid grid-cols-1 sm:grid-cols-3 gap-8 text-center py-8 px-6 sm:px-0 items-center">
-                <img class="w-1/3 m-auto " src="@/assets/TikTak/Logo-Site-TikTak.webp" alt="">
-                <img class="w-full " src="@/assets/TikTak/PageAc.webp" alt="">
+                <img class="w-1/2 m-auto " src="img/Logo-RapFeast.webp" alt="Logo RapFeast">
+                <img class="w-1/2 " src="img/Couleur-RapFeast.webp" alt="Couleur RapFeast">
             </div>
         </div>
     </section>
