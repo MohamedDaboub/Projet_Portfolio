@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <section class="h-screen    py-8">
     <div id="Accueil" class=" m-auto  ">
       <div class="text-white w-full  pr-10">
@@ -26,5 +26,20 @@
     }
   }
   </script>
-  
-  
+   -->
+<template>
+  <section id="Accueil">
+    <div class="py-20 px-10">
+      <h1 class="w-1/3 text-4xl ji">
+        Mohamed <span>Daboub</span>
+      </h1>
+      <h3 class="md:w-1/2 w-full">Webdesigner & Développeur front-end & Développeur jeux vidéo</h3>
+    </div>
+    
+  </section>
+</template>  
+<style scoped>
+.ji{
+  line-height: 5rem;
+}
+</style>
