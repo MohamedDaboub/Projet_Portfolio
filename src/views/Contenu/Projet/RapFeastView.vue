@@ -6,7 +6,7 @@
             </div>
             <div class="flex items-center gap-4">
                 <p>Site en Ligne </p>
-                <a href="http://tik-tak.daboub.fr/">
+                <a href="http://rapfeast.daboub.fr/">
                     <World class="hover:rotate-180 duration-1000 border-2 p-2 rounded-full"/>
                 </a>
             </div>
