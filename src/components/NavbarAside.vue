@@ -24,7 +24,7 @@
             <li class="hover:animate-[spin_1000ms_1]">
               <a href="mailto:contact@daboub.fr" class=""><Mail class="py-3 w-8 md:w-10 m-auto"/></a>
             </li>
-            <li class="hover:animate-[spin_1000ms_1]">
+            <li class="hover:animate-[spin_1000ms_1] hidden">
               <a href="/CV.pdf" download="Mohamed_Daboub_CV" class=""><User class="py-3 w-8 md:w-10 m-auto"/></a>
             </li>
           </ul>
