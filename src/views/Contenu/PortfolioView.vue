@@ -23,14 +23,14 @@
             </button>
           </Tab>
         </TabList>
-        <TabPanels class="mt-2">
+        <TabPanels class="mt-1">
           <TabPanel
             v-for="(projects, idx) in Object.values(categories)"
             :key="idx"
             :class="[
               '','',]">
-            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 text-black py-8 ">
-                <div v-for="project in projects" :key="project.id" :to="'/Projet/' + project.id" class="bg-[#141f36] text-white p-5 rounded-2xl sm:w-[340px] w-full border-2 border-black">
+            <!-- <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 text-black py-8 ">
+                <div v-for="project in projects" :key="project.id" :to="'/Projet/' + project.id" class="bg-[#141f36] text-white p-5 rounded-3xl sm:w-[340px] w-full border-2 border-black">
                 <img :src="project.src" alt="" class="w-full md:h-52 h-36  object-cover object-center border-2 border-black">
                 <div class="px-1 py-4">
                   <h2 class="font-bold text-xl mb-2 font-Iceberg ">{{ project.title }}</h2>
@@ -47,7 +47,25 @@
                   </div>
                 </div>
               </div>
+            </div> -->
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 text-black  py-8">
+            <div v-for="project in projects" :key="project.id" :to="'/Projet/' + project.id"
+                 class="max-w-sm rounded overflow-hidden shadow-lg bg-[#141f36]">
+              <img :src="project.src" alt="" class="w-full md:h-52 h-36   object-cover  ">
+              <div class="px-6 py-4 bg-[#141f36] text-white">
+                <div class="font-bold text-xl mb-2 font-Iceberg">{{ project.title }}</div>
+                <p class=" text-base">{{ project.description }}</p>
+                <div class="px-1 py-4">
+                  <div class="flex flex-col">
+                      <span class="">{{ project.année }}</span>
+                    </div>
+                  <div class="flex justify-end  items-end m-auto ">
+                    <a :href="project.lien" class="text-black hover:text-white bg-white border-2 border-white hover:bg-transparent font-medium py-2 px-4 rounded-[6px] text-lg">Voir le projet</a>                 
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
           </TabPanel>
         </TabPanels>
       </TabGroup>
@@ -63,6 +81,14 @@ const categories = ref({
   Développement: [
     {
       id: 1,
+      title: "PMB Plast", 
+      src: '/img/pmbplast.webp',
+      description: "Pendant mon stage de deuxième année en MMI, j'ai axé mes efforts sur une refonte totale du site, implémentant des solutions innovantes.",
+      année: 'Réalisé en 2023',
+      lien: 'PMBPlast'
+    },
+    {
+      id: 2,
       title: 'Aide à la réussite',  
       src: '/img/Aide-a-la-reussite.webp',
       description: 'Aide à la réussite consiste à faire réussir les étudiants dans leurs études. Ils pourront avoir et demander des conseils grâce à Aide à la réussite.',
@@ -70,7 +96,7 @@ const categories = ref({
       lien: 'Aidealareussite'
     },
     {
-      id: 2,
+      id: 3,
       title: "TiK•Tak",  
       src: '/img/Tik-Tak.webp',
       description: 'TiK•Tak est une plateforme en ligne fictive qui offre une expérience de personnalisation unique pour la création de montres de main personnalisées.',
@@ -78,7 +104,7 @@ const categories = ref({
       lien: 'TiKTak'
     },
     {
-      id: 3,
+      id: 4,
       title: "Rap Feast", 
       src: '/img/RapFeast.png',
       description: "Rap Feast est un festival de rap fictif pour lequel un site web a été créé dans le cadre d'un projet. Le projet a été réalisé sur le Framework Vuejs.",

@@ -21,28 +21,49 @@
           </div>
       </div>
     </div>
+    <!-- <div name="experience" class="md:my-16">
+    <div class="w-full grid grid-cols-1 sm:grid-cols-3 gap-8 text-center py-8 px-6 sm:px-0 font-p">
+      <div
+        v-for="(tech, index) in visibleTechs"
+        :key="tech.id"
+        :class="`shadow-md hover:scale-105 duration-500 py-6 rounded-xs ${tech.style}`"
+      >
+        <a :href="tech.lien">
+          <img :src="tech.src" :alt="tech.title" :class="`w-20 mx-auto ${tech.style1}`" />
+          <p class="my-1 font-poppins text-base">{{ tech.title }}</p>
+        </a>
+      </div>
+    </div>
+    <button @click="showMore" v-if="visibleTechs.length < techs.length">Show More</button>
+  </div> -->
   </template>
   
 <script>
-import Figma from "../../assets/Figma.webp";
-import html from "../../assets/html.webp";
-import css from "../../assets/css.webp";
-import github from "../../assets/github.webp";
-import WordPress from "../../assets/WordPressFinale.webp";
-import Illustrator from "../../assets/illustrator.webp";
-import Vuejs from "../../assets/Vuejs.webp";
-import tailwind from "../../assets/tailwind.webp";
-import FireBase from "../../assets/FirebaseFinale.webp";
-import reactImage from "../../assets/react.webp";
-import SupaBase from "../../assets/SupaBase.webp";
-import openstreetmap from "../../assets/OpenStreetMap.webp";
-import indesign from "../../assets/indesign.webp";
-import Unreal_Engine from "../../assets/UnrealEngineFinale.webp";
+import Figma from "@/assets/Figma.webp";
+import html from "@/assets/html.webp";
+import css from "@/assets/css.webp";
+import github from "@/assets/github.webp";
+import WordPress from "@/assets/WordPressFinale.webp";
+import Illustrator from "@/assets/illustrator.webp";
+import Vuejs from "@/assets/Vuejs.webp";
+import Nuxtjs from "@/assets/NUXTJS.webp";
+import tailwind from "@/assets/tailwind.webp";
+import FireBase from "@/assets/FirebaseFinale.webp";
+import Prismic from "@/assets/Prismic.webp";
+import reactImage from "@/assets/react.webp";
+import SupaBase from "@/assets/SupaBase.webp";
+import openstreetmap from "@/assets/OpenStreetMap.webp";
+import indesign from "@/assets/indesign.webp";
+import Unreal_Engine from "@/assets/UnrealEngineFinale.webp";
 
 export default {
   name: "Experience",
   data() {
     return {
+      /*
+      techsPerPage: 6,
+      currentPage: 1,
+      */
       techs: [
         {
           id: 1,
@@ -102,6 +123,14 @@ export default {
         },
         {
           id: 8,
+          src: Nuxtjs,
+          title: "Nuxtjs",
+          style: "shadow-green-400",
+          style1: "mb-12",
+          lien: "https://v2.nuxt.com/fr/"
+        },
+        {
+          id: 9,
           src: tailwind,
           title: "Tailwind",
           style: "shadow-sky-400",
@@ -109,7 +138,7 @@ export default {
           lien: "https://tailwindcss.com/"
         },
         {
-          id: 9,
+          id: 10,
           src: FireBase,
           title: "FireBase",
           style: "shadow-orange-400",
@@ -118,6 +147,14 @@ export default {
         },
         {
           id: 10,
+          src: Prismic,
+          title: "Prismic",
+          style: "shadow-gray-400",
+          style1: "mb-12",
+          lien: "https://prismic.io/"
+        },
+        {
+          id: 11,
           src: reactImage,
           title: "React",
           style: "shadow-blue-600",
@@ -125,7 +162,7 @@ export default {
           lien: "https://fr.reactjs.org/"
         },
         {
-          id: 11,
+          id: 12,
           src: SupaBase,
           title: "SupaBase",
           style: "shadow-green-400",
@@ -133,7 +170,7 @@ export default {
           lien: "https://supabase.io/"
         },
         {
-          id: 12,
+          id: 13,
           src: openstreetmap,
           title: "Open Street Map",
           style: "shadow-green-400",
@@ -141,7 +178,7 @@ export default {
           lien: "https://www.openstreetmap.org/"
         },
         {
-          id: 13,
+          id: 14,
           src: indesign,
           title: "InDesign",
           style: "shadow-red-400",
@@ -149,7 +186,7 @@ export default {
           lien: "https://www.adobe.com/fr/products/indesign.html"
         },
         {
-          id: 14,
+          id: 15,
           src: Unreal_Engine,
           title: "Unreal Engine",
           style: "shadow-white",
@@ -159,5 +196,18 @@ export default {
       ],
     };
   },
+  /*computed: {
+    visibleTechs() {
+      const startIndex = 0;
+      const endIndex = this.currentPage * this.techsPerPage;
+      return this.techs.slice(startIndex, endIndex);
+    },
+  },
+
+  methods: {
+    showMore() {
+      this.currentPage += 1;
+    },
+  },*/
 };
 </script>
