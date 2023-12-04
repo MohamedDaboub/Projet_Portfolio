@@ -33,8 +33,8 @@
         <div class="py-10">
             <h2 class="text-xl md:text-[36px] py-4">Galerie d'images</h2>
             <div class="w-full grid grid-cols-1 sm:grid-cols-3 gap-8 text-center py-8 px-6 sm:px-0 items-center">
-                <img class="w-1/2 m-auto " src="/img/Logo-RapFeast.webp" alt="Logo RapFeast">
-                <img class="w-1/2 " src="/img/Couleur-RapFeast.webp" alt="Couleur RapFeast">
+                <img class="w-1/2 m-auto " src="@/assets/PMBPlast/Logo_PMB_Plast.svg" alt="Logo PMB Plast">
+                <img class="w-1/2 m-auto " src="@/assets/PMBPlast/Couleur.png" alt="Logo PMB Plast">
             </div>
         </div>
     </section>
